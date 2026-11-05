@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title>Raport Odbioru Lokalu</title>
+    <script>
+      // Single Page App redirect for GitHub Pages
+      // Redirects to the root index.html preserving path & query
+      const pathSegments = window.location.pathname.split('/');
+      // If deployed in a subfolder /repo-name/
+      const repoName = pathSegments[1] ? '/' + pathSegments[1] + '/' : '/';
+      window.location.replace(window.location.origin + repoName + window.location.search + window.location.hash);
+    </script>
+  </head>
+  <body style="background-color: #0f172a; color: #f8fafc; font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0;">
+    <p>Przekierowywanie do aplikacji...</p>
+  </body>
+</html>

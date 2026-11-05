@@ -1,0 +1,6 @@
+{
+  "name": "pod github",
+  "description": "Mobilna checklista odbioru technicznego lokalu i mieszkania z generowaniem i wysyłką raportu PDF na e-mail.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
